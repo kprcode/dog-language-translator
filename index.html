@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dog Language Translator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="chat-container" role="region" aria-label="Dog Translator Chat Interface">
+    <h1>🐶 Dog Language Translator 🐾</h1>
+    <section id="chat-box" aria-live="polite" aria-atomic="true"></section>
+    
+    <input 
+      type="text" 
+      id="user-input" 
+      placeholder="Describe your dog's action..." 
+      aria-label="Dog behavior input"
+    />
+    
+    <button id="translate-btn">Translate</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
